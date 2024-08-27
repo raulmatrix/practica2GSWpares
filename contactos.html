@@ -13,6 +13,8 @@
     <link href="css/slick.css" rel="stylesheet" />
     
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/formulario.css" rel="stylesheet" />
+
     <!-- Document Title -->
     <title>Incos - Gestion de Software</title>
 </head>
@@ -50,7 +52,8 @@
             </li>
             <li class="nav-item">
               <!-- Nav Link -->
-              <a class="nav-link" data-scroll href="contactos.html">Contactos</a>
+              <a class="nav-link" href="contactos.html">Contactos</a>
+              <!-- <a class="nav-link" data-scroll href="#contact-us">Contactos</a> -->
             </li>
             <li class="nav-item dropdown">
               <!-- Lang Dropdown Link -->
@@ -75,9 +78,31 @@
       <img src="images/hero.svg" alt="">
       <div class="container">
         <!-- Hero Title -->
-        <h1>Gestion<br>de Software 2024</h1>
+        
+        <form class="form-container">
+          <div class="row mb-3">
+              <div class="col-md-6">
+                  <!-- <label for="firstName" class="form-label">Nombre</label> -->
+                  <input type="text" class="form-control" id="firstName" placeholder="your email">
+              </div>
+              <div class="col-md-6">
+                  <!-- <label for="lastName" class="form-label">Apellido</label> -->
+                  <input type="text" class="form-control" id="lastName" placeholder="Subject">
+              </div>
+          </div>
+          <div class="row mb-3">
+              <div class="col-12">
+                  <!-- <label for="message" class="form-label">Mensaje</label> -->
+                  <textarea class="form-control" id="message" rows="4" placeholder="Message here"></textarea>
+              </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-custom">Send Message</button>
+        </div>
+      </form>
+        <!-- <h1>Gestion<br>de Software 2024</h1> -->
         <!-- Hero Title Info -->
-        <p>Vestibulum ac diam sit amet quam vehicula elementum<br> amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+        <!-- <p>Vestibulum ac diam sit amet quam vehicula elementum<br> amet est on dui. Nulla porttitor accumsan tincidunt.</p> -->
         <!-- <div class="hero-btns">
          
           <a data-scroll href="#about-us">More About us</a>
