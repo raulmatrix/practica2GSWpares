@@ -1,0 +1,38 @@
+.portfolio-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .portfolio-section h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .portfolio-item h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-item p {
+    color: #666;
+  }
+  
+  .portfolio-item:hover {
+    transform: scale(1.05);
+  }
