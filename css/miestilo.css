@@ -1,0 +1,33 @@
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .news-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .news-box {
+            width: 32%;
+            height: 200px;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            padding: 10px;
+            overflow-y: auto; /* Para permitir scroll si el texto es demasiado largo */
+        }
+
+        .news-container .news-box:not(:last-child) {
+            margin-right: 0.5cm;
+        }
