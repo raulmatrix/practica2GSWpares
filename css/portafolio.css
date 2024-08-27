@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.portfolio-title {
+    font-size: 36px;
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    color: blue;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.portfolio-grid {
+    row-gap: 20px;
+}
+
+.portfolio-item {
+    width: 370px;
+    height: 280px;
+    overflow: hidden;
+}
