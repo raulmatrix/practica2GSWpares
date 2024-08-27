@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metas -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Incos" />
+    <!-- Links -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- Document Title -->
+    <title>Acerca de Nosotros - Incos</title>
+    <style>
+        .section-title {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .service-card {
+            border: 1px solid #ddd;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        .service-card:hover {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .service-card img {
+            width: 50px;
+            margin-bottom: 1rem;
+        }
+        .service-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .service-card p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+  <!-- HEADER SECTION -->  
+  <header id="home">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="interactive-menu-button">
+            <a href="#">
+              <span>Menu</span>
+            </a>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="acerca.html">Acerca<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contactos</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Get in Touch</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about-us" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Acerca</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Anything you need, we've got you covered</h2>
+          <button class="btn btn-danger mt-3">Get in Touch</button>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card text-center">
+            <img src="images/service-icon1.svg" alt="Design Icon">
+            <h3>Web & Graphic Design</h3>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card text-center">
+            <img src="images/service-icon2.svg" alt="Development Icon">
+            <h3>Web & App Development</h3>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- FOOTER SECTION -->
+  <footer class="py-4 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p>&copy; 2024 Incos, All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
