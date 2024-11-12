@@ -1,3 +1,7 @@
+function saludo (){
+  console.log("Hola Mundo");
+}
+
 $('.interactive-menu-button a').click(function() {
   $(this).toggleClass('active');
 });
